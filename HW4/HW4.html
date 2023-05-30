@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HOMEWORK 4</title>
+</head>
+<body>
+<!--USING POST METHOD-->
+<form action="" method="post">
+  <label for="1name">Name:</label>
+  <input type="text" id="1name" name="name"><br><br>
+
+  <label for="1email">Email:</label>
+  <input type="email" id="1email" name="email"><br><br>
+
+  <button type="submit">Submit</button>
+</form>
+
+<!--USING GET METHOD AND BLANK TARGET:-->
+<form action="submit.php" method="get" target="_blank">
+  <label for="2name">Name:</label>
+  <input type="text" id="2name" name="name"><br><br>
+
+  <label for="2email">Email:</label>
+  <input type="email" id="2email" name="email"><br><br>
+
+  <button type="submit">Submit</button>
+</form>
+
+<!--USING POST AND SELF TARGET:-->
+<form action="submit.php" method="post" target="_self">
+  <label for="3name">Name:</label>
+  <input type="text" id="3name" name="name"><br><br>
+
+  <label for="3email">Email:</label>
+  <input type="email" id="3email" name="email"><br><br>
+
+  <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>
